@@ -30,8 +30,8 @@ function App() {
         <Switch>
           <Route path="/" exact component={Main} />
           {/* <Route path="/blog" exact component={BlogPage} />
-          <Route path="/projects" exact component={ProjectPage} />
-          <Redirect to="/" /> */}
+          <Route path="/projects" exact component={ProjectPage} /> */}
+          <Redirect to="/" />
         </Switch>
       </Router>
       <BackToTop />
