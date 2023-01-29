@@ -29,12 +29,14 @@ function App() {
         <ScrollToTop />
         <Switch>
           <Route path="/" exact component={Main} />
-          <Route path="/blog" exact component={BlogPage} />
+          {/* <Route path="/blog" exact component={BlogPage} />
           <Route path="/projects" exact component={ProjectPage} />
-          <Redirect to="/" />
+          <Redirect to="/" /> */}
         </Switch>
       </Router>
       <BackToTop />
     </div>
   );
 }
+
+export default App;
